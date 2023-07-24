@@ -1,0 +1,50 @@
+#!/usr/bin/env bash
+
+status=$2
+user=$(who | head -n 1 | awk '{print $1}')
+
+
+DBUS_SESSION_BUS_ADDRESS=unix:path="/run/user/$( id -u "$user" )/bus"
+export DBUS_SESSION_BUS_ADDRESS
+
+notify() {
+  if [ "$status" == "add" ]; then
+    su "$user" -c "notify-send -r $3 -u low -i $2 '$1' 'Connected'"
+  else
+    su "$user" -c "notify-send -r $3 -u low -i $2 '$1' 'Disconnected'"
+  fi
+}
+
+# Change color by pywall
+
+
+shopt -s nocasematch
+case "$1" in
+*"DualSense"*)
+  notify "PS5 Controller" "ps5_controller" 30
+  ;;
+*"DualShock"*)
+  notify "PS4 Controller" "ps4_controller" 31
+  ;;
+*"Switch Pro"*) 
+  notify "Nintendo Switch Pro Controller" "switch_pro_controller" 32
+  ;;
+*"Katar"*)
+  notify "$1" "corsair" 33
+  ;;
+*"Keyboard"*)
+  notify "$1" "generic_keyboard" 34
+  ;;
+*"Mouse"* | *"Logitech MX"*)
+  notify "$1" "generic_mouse" 35
+  ;;
+*"X-Box"*)
+  notify "X-Box Controller" "xbox_controller" 36
+  ;;
+*"Yubico Yubikey"*)
+  notify "Yubikey" "yubikey" 37
+  ;;
+*)
+  notify "$1" ""
+  ;;
+esac

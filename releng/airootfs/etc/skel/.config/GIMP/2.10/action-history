@@ -1,0 +1,9 @@
+# GIMP action-history
+
+(history-item "file-quit" 3)
+(history-item "file-open" 0)
+(history-item "file-open-recent-01" 0)
+(history-item "file-open-recent-02" 0)
+(history-item "image-resize" 1)
+
+# end of action-history

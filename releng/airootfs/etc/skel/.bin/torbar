@@ -1,0 +1,14 @@
+#!/bin/sh
+tr=$(transmission-remote -l| grep %)
+[ -z "$tr" ] && exit
+tool=$(echo "$tr" | awk '{print $1 " " $2 " " $5 $6 "\\n"}')
+first=$(echo "$tr" |
+	sed " # The letters are for sorting and will not appear.
+	s/.*Stopped.*/A 󰏃/;
+	s/.*Idle.*/B /;
+    s/.*Seeding.*/Z 󰹢/;
+	s/.*100%.*/N /;
+	s/.*Uploading.*/L 󰕒/;
+	s/.*%.*/M /" |
+    sort -h | uniq -c | awk '{print $3 " " $1}' | paste -sd ' ' -)
+echo '{"text":"'$first'","tooltip":"'$tool'"}'

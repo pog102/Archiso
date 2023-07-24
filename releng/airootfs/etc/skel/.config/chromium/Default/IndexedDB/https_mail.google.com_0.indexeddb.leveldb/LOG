@@ -1,0 +1,6 @@
+2023/07/22-22:35:53.352 11bd1 Reusing MANIFEST /home/chad/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/22-22:35:53.352 11bd1 Recovering log #3
+2023/07/22-22:35:53.391 11bd1 Reusing old log /home/chad/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
+2023/07/22-22:36:32.767 11bd1 Level-0 table #5: started
+2023/07/22-22:36:32.871 11bd1 Level-0 table #5: 1851865 bytes OK
+2023/07/22-22:36:32.878 11bd1 Delete type=0 #3

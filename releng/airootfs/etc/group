@@ -1,0 +1,7 @@
+root:x:0:root
+adm:x:4:chad
+wheel:x:10:chad
+uucp:x:14:chad
+chad:x:1000:
+video:x:985:chad
+dbus:x:81:
