@@ -23,6 +23,7 @@ file_permissions=(
   ["/root/.automated_script.sh"]="0:0:755"
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/devify"]="0:0:755"
+  ["/usr/local/bin/transadd"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
     ["/var/lib/iwd"]="0:0:0700"

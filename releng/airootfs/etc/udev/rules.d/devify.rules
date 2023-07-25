@@ -1,0 +1,2 @@
+SUBSYSTEM=="hid", ACTION=="add|remove", \
+RUN+="/usr/local/bin/devify \"$env{HID_NAME}\" \"$env{ACTION}\"", GOTO="end_lookup"
