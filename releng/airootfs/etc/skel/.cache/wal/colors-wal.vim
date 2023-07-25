@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/chad/Pictures/nord/audio-bunny.png"
+let background = "#101a1b"
+let foreground = "#ebb2f5"
+let cursor     = "#ebb2f5"
+
+" Colors
+let color0  = "#101a1b"
+let color1  = "#73458E"
+let color2  = "#7E42A1"
+let color3  = "#843DAE"
+let color4  = "#904DAE"
+let color5  = "#AE57CE"
+let color6  = "#D068EA"
+let color7  = "#ebb2f5"
+let color8  = "#a47cab"
+let color9  = "#73458E"
+let color10 = "#7E42A1"
+let color11 = "#843DAE"
+let color12 = "#904DAE"
+let color13 = "#AE57CE"
+let color14 = "#D068EA"
+let color15 = "#ebb2f5"

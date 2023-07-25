@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chad/Pictures/aerial/2023/07/20230707_173111_D869E338.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0d0d",
+        "foreground": "#d1d5d8",
+        "cursor": "#d1d5d8"
+    },
+    "colors": {
+        "color0": "#0d0d0d",
+        "color1": "#C16346",
+        "color2": "#A68B73",
+        "color3": "#D09870",
+        "color4": "#759DBF",
+        "color5": "#A39C98",
+        "color6": "#E0CCB1",
+        "color7": "#d1d5d8",
+        "color8": "#929597",
+        "color9": "#C16346",
+        "color10": "#A68B73",
+        "color11": "#D09870",
+        "color12": "#759DBF",
+        "color13": "#A39C98",
+        "color14": "#E0CCB1",
+        "color15": "#d1d5d8"
+    }
+}

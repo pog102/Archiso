@@ -1,0 +1,21 @@
+set $wallpaper /home/chad/Pictures/nord/audio-bunny.png
+
+set $background #101a1b
+set $foreground #ebb2f5
+
+set $color0 #101a1b
+set $color1 #73458E
+set $color2 #7E42A1
+set $color3 #843DAE
+set $color4 #904DAE
+set $color5 #AE57CE
+set $color6 #D068EA
+set $color7 #ebb2f5
+set $color8 #a47cab
+set $color9 #73458E
+set $color10 #7E42A1
+set $color11 #843DAE
+set $color12 #904DAE
+set $color13 #AE57CE
+set $color14 #D068EA
+set $color15 #ebb2f5

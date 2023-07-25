@@ -1,0 +1,25 @@
+* {
+    background-color:               transparent;
+    background:                     #101a1b;
+    bg:                     #101a1b;
+    trans:         #101a1bA0;
+    fg:                     #ebb2f5;
+    selected:                        #73458E;
+    bg0:                        #101a1b;
+    bg1:                        #73458E;
+    bg2:                        #7E42A1;
+    bg3:                        #843DAE;
+    bg4:                        #904DAE;
+    bg5:                        #AE57CE;
+    bg6:                        #D068EA;
+    bg7:                        #ebb2f5;
+    bg8:                        #a47cab;
+    bg9:                        #73458E;
+    bg10:                        #7E42A1;
+    bg11:                        #843DAE;
+    bg12:                        #904DAE;
+    bg13:                        #AE57CE;
+    bg14:                        #D068EA;
+    bg15:                        #ebb2f5;
+    urgent:                         #BF616A;
+}

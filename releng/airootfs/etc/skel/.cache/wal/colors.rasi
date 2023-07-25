@@ -1,0 +1,23 @@
+inputbar {
+    background-image:            url("/home/chad/Pictures/nord/audio-bunny.png", width);
+}
+* {
+    font:                        "jetbrains mono nerd font 10";
+    background-color:               transparent;
+    background:                     #101a1b;
+    background-alt:         #101a1bA0;
+    foreground:                     #ebb2f5;
+    selected:                        #73458E;
+    active:                        #7E42A1;
+    color3:                        #843DAE;
+    color3:                        #843DAE;
+    color4:                        #904DAE;
+    color5:                        #AE57CE;
+    color6:                        #D068EA;
+    color7:                        #ebb2f5;
+    color8:                        #a47cab;
+    color9:                        #73458E;
+    color10:                        #7E42A1;
+    color11:                      #843DAE;
+    urgent:                         #BF616A;
+}
