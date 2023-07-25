@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-
+if [[ ! -d local/repo/ ]]; then
+  mkdir -p local/repo/
+fi
 pkgs="
 brillo
 cli-visualizer
