@@ -5,6 +5,7 @@ fi
 pkgs="
 brillo
 cli-visualizer
+python-spotdl
 swww
 zaread-git
 rofi-lbonn-wayland-git
