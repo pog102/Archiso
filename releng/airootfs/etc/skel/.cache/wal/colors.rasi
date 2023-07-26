@@ -1,5 +1,5 @@
 inputbar {
-    background-image:            url("/home/chad/Pictures/nord/audio-bunny.png", width);
+    background-image:            url("/home/chad/Pictures/audio-bunny.png", width);
 }
 * {
     font:                        "jetbrains mono nerd font 10";
