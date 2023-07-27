@@ -1,8 +1,8 @@
 alsa-utils
 pipewire-pulse
 chafa
-amd-ucode
 bash
+amd-ucode
 libpipewire
 bluez-libs
 libglvnd
@@ -51,7 +51,6 @@ hyperv
 intel-ucode
 irssi
 iw
-iwd
 jfsutils
 kitty-terminfo
 less
@@ -122,7 +121,6 @@ usbmuxd
 usbutils
 virtualbox-guest-utils-nox
 vpnc
-wezterm-terminfo
 wireless-regdb
 wireless_tools
 wpa_supplicant
@@ -141,7 +139,6 @@ thunar
 firefox
 bat
 arc-gtk-theme
-networkmanager
 adobe-source-han-sans-jp-fonts
 starship
 dunst
@@ -157,7 +154,6 @@ make
 neovim
 pamixer
 papirus-icon-theme
-paru
 python-pywal
 ripgrep
 rsync
@@ -196,13 +192,18 @@ rofi-lbonn-wayland-git
 bluetuith-bin
 transg-tui-git
 grimblast-git
-grimblast-git
 bibata-cursor-theme-bin
 imv
 fzf
-steam
-nvidia-open-dkms
+#steam
+#nvidia-open-dkms
 rofi-games
 ### Chaotic-AUR
 chaotic-mirrorlist
 chaotic-keyring
+python-syncedlyrics
+python-jaconv
+#nvidia-utils
+lib32-libglvnd
+lib32-nvidia-utils
+xdg-desktop-portal-hyprland

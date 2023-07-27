@@ -29,8 +29,8 @@ case "$1" in
 *"Switch Pro"*) 
   notify "Nintendo Switch Pro Controller" "switch_pro_controller" 32
   ;;
-*"Katar"*)
-  notify "$1" "corsair" 33
+*"KATAR"*)
+  notify "Corsair Katar Mouse" "corsair" 33
   ;;
 *"Keyboard"*)
   notify "$1" "generic_keyboard" 34
