@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 chmod +x /home/chad/.bin/*
+ln -fs /home/chad/.cache/wal/wal.theme /home/chad/.config/btop/themes/wal.theme
+
 systemctl enable iwd
 pacman-key --init
 # NOTE the key can change, check https://aur.chaotic.cx/
