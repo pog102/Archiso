@@ -4,7 +4,9 @@ wal -n -q -i $HOME/Pictures/$1
 # killall swaybg
 # swaybg -m fill -i "$HOME/Pictures/$1" &
 # swww init
-swww img $HOME/Pictures/$1 --transition-type grow --transition-pos top-right
+sh /home/chad/steam/steam.sh -i $HOME/Pictures/$1
+# swww img $HOME/Pictures/$1 --transition-type grow --transition-pos top-right
+swww img $HOME/steam/output_image.png --transition-type grow --transition-pos top-right
 color=$(sed '4!d' ~/.cache/wal/colors)
 #notify-send -i pywal "Colors are set"
 fold=$HOME/.local/share/icons/

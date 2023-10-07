@@ -1,11 +1,13 @@
 {
   "layer": "top",
-    "modules-left": ["wlr/workspaces", "disk", "custom/torrent"],
+    "modules-left": ["hyprland/workspaces", "disk", "custom/torrent"],
     "modules-center": ["clock"],
-    "modules-right": ["custom/weather", "custom/bb", "backlight", "pulseaudio", "network", "battery"],
-    "wlr/workspaces": {
+    "modules-right": ["custom/weather", "custom/updates",  "backlight", "pulseaudio", "network", "battery"],
+    "hyprland/workspaces": {
       "format": "{icon}",
       "on-click": "activate",
+      "on-scroll-up": "hyprctl dispatch workspace e+1",
+     "on-scroll-down": "hyprctl dispatch workspace e-1",
         "format-icons": {
 "1":"-", 
 "2":"二",
@@ -155,7 +157,13 @@
 	"tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
 },
 
-
+ "custom/github": {
+    "format": "{} ",
+    "return-type": "json",
+    "interval": 3600,
+    "exec": "$HOME/.config/waybar/bin/github.sh",
+    "on-click": "xdg-open https://github.com/notifications"
+  },
 
 "custom/pipewire": {
         "tooltip": false,
@@ -177,7 +185,14 @@
       "on-click": "sh $HOME/.bin/tog_wifi",
     "max-length": 50
 },
-
+  "custom/updates": {
+    "format": "{}",
+    "interval": 3600,
+    "exec": "~/.bin/updatecheck",
+    "return-type": "json",
+    "exec-if": "exit 0",
+    "signal": 8
+  },
 
     "battery": {
         "on-click": "~/.bin/gamemode",

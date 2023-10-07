@@ -1,6 +1,7 @@
 #!/bin/sh
 
 wp_dir="$HOME/Pictures"
+# wp_dir="$HOME/new"
 
 list_wps() {
   find "$wp_dir" -type f -regex '.*\(jpg\|jpeg\|png\)' -printf "%P\n" |shuf |
@@ -17,5 +18,6 @@ rofi_dmenu() {
 }
 
 wp=$( list_wps | rofi_dmenu )
+# [ ! -z $wp ] && ~/.bin/wal_c "$wp" 
 [ ! -z $wp ] && ~/.bin/wally "$wp" 
 # [ ! -z $wp ] && rm "$wp_dir/$wp" 

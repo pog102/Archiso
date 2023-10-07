@@ -54,7 +54,7 @@ tooltip {
   color: @foreground;
 }
 
-#clock, #custom-torrent, #custom-bb, #disk, #custom-pacman, #custom-weather,#custom-wf,  #bluetooth, #backlight, #pulseaudio, #network, #battery{
+#clock, #custom-updates, #custom-torrent, #custom-bb, #disk, #custom-pacman, #custom-weather,#custom-wf,  #bluetooth, #backlight, #pulseaudio, #network, #battery{
   border-radius: 13px;
   background-color: @color0;
   color: @foreground;
@@ -64,7 +64,11 @@ tooltip {
   margin-right: 15px;
   font-weight: bolder;
 }
+#custom-updates
+{
 
+  color: @color14;
+}
 #clock{
   color: @color2;
 }
@@ -91,6 +95,9 @@ tooltip {
   color: @color7;
 }
 
+#custom-updates{
+  color: @color10;
+}
 #custom-torrent{
   color: @color9;
 }
