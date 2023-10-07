@@ -180,7 +180,6 @@ waybar-hyprland-git
 ttf-fira-code
 ttf-twemoji
 ttf-roboto-mono
-nerd-fonts-complete-mono-glyphs
 ttf-hack-nerd
 zathura-pdf-poppler
 libnotify
@@ -188,7 +187,7 @@ brillo
 cli-visualizer
 swww
 zaread-git
-rofi-lbonn-wayland-git
+rofi-lbonn-wayland
 bluetuith-bin
 transg-tui-git
 grimblast-git

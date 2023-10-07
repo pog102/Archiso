@@ -9,13 +9,12 @@ cli-visualizer
 python-spotdl
 swww
 zaread-git
-rofi-lbonn-wayland-git
+rofi-lbonn-wayland
 bluetuith-bin
 transg-tui-git
 grimblast-git
 paru
 bibata-cursor-theme-bin
-nerd-fonts-complete-mono-glyphs
 rofi-games 
 python-syncedlyrics
 python-jaconv
