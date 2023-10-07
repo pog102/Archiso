@@ -5,8 +5,14 @@ vim.cmd("highlight Pmenu guibg=NONE")
 opt.wildignore = "*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx,*DS_STORE,*.db"
 opt.autowrite = true -- Enable auto write
 opt.clipboard = "unnamedplus" -- Sync with system clipboard
+
+-- vim.g.tex_flavor='latex'
+-- vim.g.vimtex_view_method='zathura'
+-- vim.g.vimtex_quickfix_mode=0
+-- vim.g.tex_conceal='abdmg'
+-- vim.g.vimtex_compiler_method = 'latexrun'
 opt.completeopt = "menu,menuone,noselect"
-opt.conceallevel = 3 -- Hide * markup for bold and italic
+opt.conceallevel = 1 -- Hide * markup for bold and italic
 opt.confirm = false -- Confirm to save changes before exiting modified buffer
 opt.cursorline = true -- Enable highlighting of the current line
 opt.expandtab = true -- Use spaces instead of tabs

@@ -23,11 +23,13 @@ return {
     ensure_installed = {
       'html',
       'css',
+      'scss',
       'javascript',
       'python',
       'bash',
       'lua',
       'json',
+      'yuck',
     },
     highlight = {
       enable = true, -- false will disable the whole extension
