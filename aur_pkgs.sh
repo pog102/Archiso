@@ -16,6 +16,7 @@ grimblast-git
 paru
 bibata-cursor-theme-bin
 rofi-games 
+nerd-fonts-complete-mono-glyphs
 python-syncedlyrics
 python-jaconv
 "
